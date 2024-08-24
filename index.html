@@ -7,22 +7,235 @@
     <title>Encanto Animal</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo"> <img src="img/logo_encantoAnimal.png" alt=""></a>
+    <main>
+        <header class="header">
+            <a href="#" class="logo"> <img src="img/nome_logo.png" alt="" width="200px"></a>
+            <nav class="navbar">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#animais">Animais</a>
+                <a href="#animais">Infraestrutura</a>
+                <a href="#animais">Localização</a>
+                <a href="#contact">Contato</a>
+            </nav>
+            <!-- <div class="icons">
+                <div id="login-btn" class="fas fa-user"></div>
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div> -->
+        </header>
 
-        <nav class="navbar">
-            <a href="#home">Início</a>
-            <a href="#about">Sobre</a>
-            <a href="#animals">Animais</a>
-            <a href="#contact">Contato</a>
-        </nav>
+        <section class="home" id="home">
+            <!-- <div class="content">
+                <h3>enjoy the wonderful <br>
+                adventure of the <br> animals</h3>
+                <a href="#" class="btn"> meet teh zoo</a>
+            </div> -->
+            <img src="img/bottom_wave.png" alt="" class="wave">
 
-        <!-- <div class="icons">
-            <div id="login-btn" class="fas fa-user"></div>
-            <div id="menu-btn" class="fas fa-bars"></div>
-        </div> -->
-    </header>
+        </section>
+
+        <section class="about" id="about">
+
+            <h2 class="deco-title">Sobre nós</h2>
+
+            <article class="box-container">
+
+                <div class="image">
+                    <img src="img/sobre.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3 class="title"> História do Encanto Animal</h3>
+                    <p>O <strong>Encanto Animal</strong> foi fundado por Emilly, uma apaixonada por animais que transformou sua fazenda familiar em um espaço de preservação e educação ambiental. Após estudar biologia e viajar pelo mundo, Emilly voltou com a missão de criar um zoológico que unisse conservação e conscientização sobre a vida selvagem. <br>
+                        
+                    O zoológico começou de forma modesta, resgatando animais em situação de risco, e rapidamente cresceu para abrigar espécies ameaçadas e resgatadas. Sob sua liderança, o Encanto Animal se tornou um centro de conservação, com habitats que reproduzem o ambiente natural dos animais e programas educativos que inspiram os visitantes a protegerem a natureza. <br>
+
+                    Hoje, o Encanto Animal é conhecido por seu compromisso com o bem-estar animal e a preservação da biodiversidade, refletindo a paixão de Emilly por cuidar e proteger a vida selvagem.</p>
+
+                    <!-- <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>we educate</h3>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-bullhorn"></i>
+                            <h3>we play</h3>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-book-opn"></i>
+                            <h3>getting to know</h3>
+                        </div>
+                    <div> -->
+                       
+                </div>
+
+            </article>
+
+        </section>
+
+        <section class="animais" id="animais">
+
+            <h2 class="heading">Animais</h2>
+    
+            <div class="box-container">
+    
+                <div class="box">
+                    <img src="img/aves.jpg" alt="">
+                    <div class="content">
+                        <h3>Aves</h3>
+                        <a href="#" class="btn">Mais detalhes</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="img/repteis.jpg" alt="">
+                    <div class="content">
+                        <h3>Répteis</h3>
+                        <a href="#" class="btn">Mais detalhes</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="img/mamiferos.jpg" alt="">
+                    <div class="content">
+                        <h3>Mamíferos</h3>
+                        <a href="#" class="btn">Mais detalhes</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="img/peixe.jpg" alt="">
+                    <div class="content">
+                        <h3>Peixes</h3>
+                        <a href="#" class="btn">Mais detalhes</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/anfibios.jpeg" alt="">
+                    <div class="content">
+                        <h3>Anfíbios</h3>
+                        <a href="#" class="btn">Mais detalhes</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </section>
+
+        <!-- LOCALIZAÇÃO 
+        <section class="local">
+            <h2 class="heading">Localização</h2>
+
+            <div class="local">
+                <p> Estamos Localizados em: </p>
+                <p>Rua Avenida dos Sonhos Dourados, Vila Encantada - São Paulo - Brasil</p>
+            </div>
+
+            <div id="map"></div> 
+        </section> -->
+
+  <!-- <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Inicialize o mapa com coordenadas fictícias e nível de zoom
+    var map = L.map('map').setView([-23.5505, -46.6333], 13);
+
+    // Adicione a camada de tile do OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Adicione um marcador com uma pop-up
+    L.marker([-23.5505, -46.6333]).addTo(map)
+      .bindPopup('Avenida dos Sonhos Dourados, Vila Encantada, São Paulo, Brasil')
+      .openPopup();
+  </script> -->
+
+  <section class="contact" id="contact">
+
+    <h2 class="headingContact">Entre em Contato</h2>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="Celular">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+
+        <a href="#" class="btn">Enviar mensagem</a>
+
+    </form>
+
+</section>
+
+<!-- end -->
+
+<!-- footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3><i class="fas fa-paw"></i> Encanto Animal</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="links"><i class="fas fa-clock"></i>Segunda - Sábado</p>
+            <p class="days">7:00AM - 20:00PM</p>
+            <p class="links"><i class="fas fa-clock"></i>Domingo e Feriados</p>
+            <p class="days">9:00AM - 18:00PM</p>
+        </div>
+
+        <div class="box">
+            <h3>Informações de Contato</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i> (11) 5555-1234</a>
+            <a href="#" class="links"><i class="fas fa-phone"></i> (11) 95555-1234.</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i> contato@encantoanimalzoo.com.br</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</a>
+        </div>
+
+        <div class="box">
+            <h3>Links Rápidos</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Início</a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Sobre</a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Animais</a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Infraestrutura</a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Localização</a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Contato</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>Inscreva-se para receber as últimas atualizações</p>
+            <input type="email" placeholder="Insira seu Email" class="email">
+            <a href="#" class="btn">Inscreva-se</a>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="credit">&copy; 2024 Encanto Animal. Todos os direitos reservados por <a href="#" class="link">Encanto Animal</a></div>
+
+</section>
+
+       
+
+    </main>
+
 </body>
 </html>

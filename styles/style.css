@@ -9,15 +9,17 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
 :root {
-    --main: #ff6e01;
+    --main: #FFB84D ;
     --fundo: #f1e1d2;
     --preto: #000;
     --branco: #fff;
+    --laranja_claro: #FFCE4D;
+    --verde: #D1CB1F;
+    --verde_claro: #C9FF4D;
     --sombra: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 
 }
@@ -64,9 +66,7 @@ html::-webkit-scrollbar-thumb {
     nome da logo
 } */
 
-.header .navbar {
-    margin-left: 70%;
-}
+
 
 
 .header  .navbar a {
@@ -77,7 +77,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .navbar a:hover {
-    color: var(--main);
+    /* text-decoration: underline; */
+    color: var(--laranja_claro);
 }
 
 .header .icons div {
@@ -90,6 +91,327 @@ html::-webkit-scrollbar-thumb {
 .header .icons div:hover{
     color: var(--main)
 }
+
+#map {
+    height: 500px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/capa2.png) no-repeat;
+    background-size: cover;
+    
+}
+
+/* .home .content{
+    max-width: 60rem;
+} */
+
+.home .wave{
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height: 12rem;
+}
+
+.about .box-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+    padding: 80px;
+    margin-top: 150px;
+}
+
+.about .deco-title{
+    font-size: 8rem;
+    font-weight: 700;
+    white-space: nowrap;
+    line-height: 0.5;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--main);
+    transform-origin: top left;
+    /* transform: rotate(0.25turn); */
+    /* margin: 100px 0px -80px 100px; */
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    z-index: -1;
+
+}
+
+.about .box-container .image{
+    flex: 0.5 1 31rem;
+}
+
+.about .box-container .image img{
+    width: 100%;
+   
+}
+
+.about .content {
+    flex: 1 1 41rem;
+}
+
+.about .content .title {
+    font-size: 2.5rem;
+    color: var(--verde);
+    padding-bottom: 25px;
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color: #444;
+    padding-right: 250px;
+    line-height: 2;
+    text-indent: 10px;
+}
+
+/* .about .content .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.about .content .icons-container .icons {
+    flex: 1 1 16rem;
+    text-align: center;
+    background: var(--fundo);
+    padding: 3rem 2rem;
+} */
+
+/* .animal {
+    
+} */
+.animais .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    gap: 2rem;
+    padding: 50px;
+  }
+  
+  .animais .box-container .box{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .heading {
+    color: var(--main);
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .animais .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .animais .box-container .box:hover img{
+    transform: scale(1.1);
+  }
+
+  
+  .animais .box-container .box .content{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    bottom: 30px;
+    padding: 20px;
+    z-index: 1;
+    transition: 0.5s ease;
+  }
+  
+  .animais .box-container .box:hover::after{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--preto);
+    opacity: 0.5;
+    transition: 0.5s ease;
+  }
+  
+  .animais .box-container .box .content h3{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--branco);
+    margin-bottom: 150px;
+  }
+  
+  .animais .box-container .box:is(:hover, :focus-within) .content{
+    transform: translateY(-20px);
+  }
+  
+  .box .btn {
+    background-color: var(--main);
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 2rem;
+    color: var(--branco);
+    margin-bottom: 20px;
+  }
+
+
+  .contact{
+    background: var(--fundo);
+  }
+
+  .contact .btn {
+    background-color: var(--main);
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 2rem;
+    color: var(--branco);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .headingContact {
+    color: var(--main);
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .contact form{
+    padding: 2rem 10%;
+    text-align: center;
+  }
+  
+  .contact form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact form .inputBox input,
+  .contact form textarea{
+    font-size: 1.7rem;
+    width: 49%;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    text-transform: none;
+  }
+  
+  .contact form .inputBox input::placeholder,
+  .contact form textarea::placeholder{
+    text-transform: capitalize;
+  }
+  
+  .contact form textarea{
+    height: 15rem;
+    resize: none;
+    width: 100%;
+  }
+  
+  /* end */
+  
+  /* footer */
+  
+  .footer{
+    background: url(../img/footer.jpg) no-repeat;
+    background-size: cover;
+    padding: 3rem 7%;
+  }
+  
+  .footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: var(--main);
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--branco);
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .links{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--branco);
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .links i{
+    color: var(--main);
+    padding-right: .5rem;
+  }
+  
+  .footer .box-container .box .links:hover i{
+    padding-right: 2rem;
+  }
+  
+  .footer .box-container .box .days{
+    margin-left: 2.2rem;
+    line-height: .2;
+  }
+  
+  .footer .box-container .box .email{
+    width: 100%;
+    margin: .7rem 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: var(--branco);
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+  }
+  
+  .footer .box-container .box .share a{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    color: var(--preto);
+    background: var(--branco);
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    margin-right: .8rem;
+    text-align: center;
+    margin-top: 1.4rem;
+  }
+  
+  .footer .box-container .box .share a:hover{
+    background: var(--main);
+  }
+  
+  .footer .credit{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2.5rem;
+    color: var(--preto);
+    border-top: .2rem solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer .credit .link{
+    color: var(--main);
+  }
+
+
 
 
 
