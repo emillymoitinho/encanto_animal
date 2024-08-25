@@ -268,7 +268,7 @@ html::-webkit-scrollbar-thumb {
 
 
   .contact{
-    background: var(--fundo);
+    background: var(--verde_claro);
   }
 
   .contact .btn {
