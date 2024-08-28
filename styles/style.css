@@ -106,7 +106,7 @@ html::-webkit-scrollbar-thumb {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../img/capa2.png) no-repeat;
+    background: url(../img/capa.png) no-repeat;
     background-size: cover;
     
 }
@@ -144,10 +144,29 @@ html::-webkit-scrollbar-thumb {
     /* transform: rotate(0.25turn); */
     /* margin: 100px 0px -80px 100px; */
     position: absolute;
-    top: 120%;
+    top: 110%;
     left: 40%;
     z-index: -1;
 
+}
+
+.about .content .destaque {
+  background-color: var(--main);
+  text-align: center;
+  width: 550px;
+  margin: 30px 0px 50px 120px;
+  box-shadow: 10px 10px 10px rgba(128, 126, 126, 0.192);
+
+}
+
+.about .content p.destaque {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.about .content .destaque2 {
+  text-align: center;
 }
 
 .about .box-container .image{
@@ -175,6 +194,15 @@ html::-webkit-scrollbar-thumb {
     padding-right: 250px;
     line-height: 2;
     text-indent: 10px;
+}
+
+.about .content a {
+  color: rgb(236, 118, 137);
+}
+
+.about .content a:hover {
+  background-color: pink;
+  border-radius: 5px;
 }
 
 /* .about .content .icons-container{
@@ -221,6 +249,7 @@ html::-webkit-scrollbar-thumb {
   
   .animais .box-container .box:hover img{
     transform: scale(1.1);
+  
   }
 
   
@@ -244,6 +273,7 @@ html::-webkit-scrollbar-thumb {
     background: var(--preto);
     opacity: 0.5;
     transition: 0.5s ease;
+
   }
   
   .animais .box-container .box .content h3{
