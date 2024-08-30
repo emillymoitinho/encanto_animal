@@ -44,6 +44,8 @@ html::-webkit-scrollbar-thumb {
     border-radius: 5rem;
 }
 
+/* BARRA DE NAVEGAÇÃO */
+
 .header {
     position: fixed;
     top: 0;
@@ -58,17 +60,6 @@ html::-webkit-scrollbar-thumb {
     padding: 2rem 9%;
 }
 
-/* .header .logo {
- 
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: var(--preto);
-    nome da logo
-} */
-
-
-
-
 .header  .navbar a {
     font-size: 1.7rem;
     color: var(--preto);
@@ -81,26 +72,7 @@ html::-webkit-scrollbar-thumb {
     color: var(--laranja_claro);
 }
 
-.header .icons div {
-    font-size: 2.5rem;
-    margin-left: 1.7rem;
-    cursor: pointer;
-    color: var(--preto);
-}
-
-.header .icons div:hover{
-    color: var(--main)
-}
-
-#map {
-    height: 500px;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 10px;
-  }
-
+/* HOME  */
 
 .home{
     min-height: 100vh;
@@ -111,10 +83,6 @@ html::-webkit-scrollbar-thumb {
     
 }
 
-/* .home .content{
-    max-width: 60rem;
-} */
-
 .home .wave{
     position: absolute;
     bottom: 0; 
@@ -123,39 +91,54 @@ html::-webkit-scrollbar-thumb {
     height: 12rem;
 }
 
+
+/* SOBRE NÓS */
+
+.about {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  min-height: 100vh;
+}
+
 .about .box-container{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10rem;
-    padding: 80px;
-    margin-top: 150px;
+  text-align: center;
+  width: 100%; /* Faz com que o container ocupe 100% da largura disponível */
+  display: flex;
+  flex-direction: column; /* Alinha o conteúdo verticalmente */
+  justify-content: center; /* Centraliza verticalmente o conteúdo */
+  align-items: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+.about .content {
+  max-width: 80%; /* Controla a largura máxima do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+.about .content p {
+  text-align: justify; /* Justifica o texto */
 }
 
 .about .deco-title{
-    font-size: 8rem;
-    font-weight: 700;
-    white-space: nowrap;
-    line-height: 0.5;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px var(--main);
-    transform-origin: top left;
-    /* transform: rotate(0.25turn); */
-    /* margin: 100px 0px -80px 100px; */
-    position: absolute;
-    top: 110%;
-    left: 40%;
-    z-index: -1;
-
-}
+  font-size: 8rem;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 0.5;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--main);
+  float: left;
+  margin-top: 150px;
+} 
 
 .about .content .destaque {
   background-color: var(--main);
   text-align: center;
-  width: 550px;
-  margin: 30px 0px 50px 120px;
+  width: 500px;
   box-shadow: 10px 10px 10px rgba(128, 126, 126, 0.192);
+  margin: 0 auto; 
+  margin-top: 50px;
+  margin-bottom: 50px;
 
 }
 
@@ -166,34 +149,24 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about .content .destaque2 {
+  font-size: 2rem;
   text-align: center;
-}
-
-.about .box-container .image{
-    flex: 0.5 1 31rem;
-}
-
-.about .box-container .image img{
-    width: 100%;
-   
-}
-
-.about .content {
-    flex: 1 1 41rem;
+  margin-bottom: 150px;
 }
 
 .about .content .title {
     font-size: 2.5rem;
     color: var(--verde);
-    padding-bottom: 25px;
+    margin-top: 250px;
+    margin-bottom: 50px;
 }
 
 .about .content p{
     font-size: 1.5rem;
     color: #444;
-    padding-right: 250px;
     line-height: 2;
     text-indent: 10px;
+
 }
 
 .about .content a {
@@ -205,40 +178,27 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
-/* .about .content .icons-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
-    margin-top: 3rem;
-}
 
-.about .content .icons-container .icons {
-    flex: 1 1 16rem;
-    text-align: center;
-    background: var(--fundo);
-    padding: 3rem 2rem;
-} */
-
-/* .animal {
-    
-} */
+/* ANIMAIS */
 .animais .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
     gap: 2rem;
-    padding: 50px;
+    padding: 50px 50px 150px 50px;
   }
   
   .animais .box-container .box{
     height: 100%;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
   }
 
   .heading {
     color: var(--main);
     font-size: 5rem;
     text-align: center;
+    margin-bottom: 40px;
   }
   
   .animais .box-container .box img{
