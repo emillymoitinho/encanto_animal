@@ -124,13 +124,13 @@ article.content p {
     padding: 20px;
 }
 
-#aves_tropicais {
+#animal {
     background: url(/img/fundo_tropical.png);
     background-size: bottom right;
     padding: 10rem 10rem;
 }
 
-#aves_tropicais .title_ave {
+#animal .title_ave {
     text-align: center;
     padding-bottom: 4rem;
     font-size: 5rem;
@@ -138,7 +138,7 @@ article.content p {
     font-weight: 900;
 }
 
-#aves_tropicais .box-container{
+#animal .box-container{
     display: flex; /* Usa Flexbox para alinhar os itens horizontalmente */
     justify-content: center; /* Centraliza os itens dentro do contêiner */
     align-items: stretch; /* Faz com que todas as caixas tenham a mesma altura */

@@ -77,7 +77,7 @@ html::-webkit-scrollbar-thumb {
     color: var(--preto);
 }
 
-.main {
+.home {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -86,13 +86,93 @@ html::-webkit-scrollbar-thumb {
     background-size: cover;
 }
 
-.main .wave{
+.home .wave{
     position: absolute;
     bottom: 0; 
     left: 0;
     width: 100%;
     height: 12rem;
 }
+
+section.about{
+    display: flex;
+    padding: 10rem 30rem 10rem 10rem;
+}
+
+section.about h1 {
+    font-size: 5rem;
+    margin-bottom: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+section.about .deco-title {
+    color: var(--main);
+}
+
+article.content p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-family: "Open Sans", sans-serif;
+    text-indent: 1rem;
+    padding: 20px;
+}
+
+#animal {
+    background: url(/img/fundo_tropical.png);
+    background-size: bottom right;
+    padding: 10rem 10rem;
+}
+
+#animal .title_ave {
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 5rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 900;
+}
+
+#animal .box-container{
+    display: flex; /* Usa Flexbox para alinhar os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens dentro do contêiner */
+    align-items: stretch; /* Faz com que todas as caixas tenham a mesma altura */
+    gap: 10rem; 
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    margin: 0; /* Remove margens */
+    background-color: var(--branco);
+    width: 400px;
+    padding: 46px;
+    border-radius: 5%;
+    box-shadow: 13px 9px 14px 0px #00000059;
+
+}
+
+.box:hover {
+    transform: translateY(-10px) scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.box img {
+   border-radius: 50%;
+   margin-bottom: 3rem;
+  }
+
+.box .title_animal{
+   font-size: 2rem;
+   text-align: center;
+   margin-bottom: 2rem;
+}
+
+.box ul  {
+    font-size: 1.5rem;
+  }
 
 
 
