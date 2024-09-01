@@ -127,7 +127,8 @@ article.content p {
 }
 
 #animal {
-    background: url(/img/fundo_tropical.png);
+    background: url(/img/fundo_animais.png);
+    background-repeat: no-repeat;
     background-size: bottom right;
     padding: 10rem 10rem;
 }

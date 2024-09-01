@@ -19,9 +19,9 @@
                 <a href="#home">Início</a>
                 <a href="#about">Sobre</a>
                 <a href="#animais">Animais</a>
-                <a href="#animais">Infraestrutura</a>
-                <a href="#animais">Localização</a>
-                <a href="#contact">Contato</a>
+                <a href="#">Infraestrutura</a>
+                <a href="#local">Localização</a>
+                <a href="#contato">Contato</a>
             </nav>
             <!-- <div class="icons">
                 <div id="login-btn" class="fas fa-user"></div>
@@ -135,11 +135,12 @@
     
         </section>
 
-        <section class="local">
+
+        <section id="local" class="local">
 
             <article class="content">
                 <h1>Localização do Encanto Animal</h1>
-                <p>O Zoológico Encanto Animal está situado em um local estratégico que combina acessibilidade e proximidade com a natureza, proporcionando uma experiência única para os visitantes.</p>
+                <p class="text">O Zoológico Encanto Animal está situado em um local estratégico que combina acessibilidade e proximidade com a natureza, proporcionando uma experiência única para os visitantes.</p>
 
                 <br>
 
@@ -150,7 +151,7 @@
 
                 <h3>Como Chegar?</h3>
                 <ul>
-                    <li><strong>De Carro:</strong> O Encanto Animal é facilmente acessível de carro. Estamos a apenas 30 minutos do centro de São Paulo, com acesso direto pelas principais rodovias. Há um amplo estacionamento disponível para os visitantes, garantindo conveniência e segurança.</li>
+                    <li><strong>De Carro:</strong> Estamos a apenas 30 minutos do centro de São Paulo, com acesso direto pelas principais rodovias. Há um amplo <strong>estacionamento</strong> disponível para os visitantes, garantindo conveniência e segurança.</li>
                     <br>
                     <li><strong>De Transporte Público:</strong> Para quem prefere transporte público, várias linhas de ônibus param próximo à entrada principal do zoológico. As estações de metrô mais próximas oferecem conexões fáceis com os ônibus locais, tornando a visita ao Encanto Animal conveniente para todos.</li>
                     <br>
@@ -163,7 +164,14 @@
                 <p>Estamos abertos de terça a domingo, das 9h às 17h, com horário estendido durante feriados e temporadas de alta visitação. Recomendamos que você chegue cedo para aproveitar ao máximo tudo o que o Encanto Animal tem a oferecer!</p>
 
                 <h3>Contato</h3>
-                <p>Se precisar de mais informações sobre como chegar ou tiver dúvidas, entre em contato conosco pelo telefone (XX) XXXX-XXXX ou pelo e-mail contato@encantoanimal.com.br. Nossa equipe estará pronta para ajudar e tornar sua visita ao Encanto Animal inesquecível.</p>
+                <p>Se precisar de mais informações sobre como chegar ou tiver dúvidas, entre em contato conosco:
+                    <br><br>
+                <strong><i class="fas fa-phone"></i> (11) 94957-9302 </strong>
+                <br>
+                <strong><i class="fas fa-envelope"></i> contato@encantoanimal.com.br</strong> 
+                <br><br></p>
+
+                <p>Nossa equipe estará pronta para ajudar e tornar sua visita ao Encanto Animal inesquecível.</p>
             </article>
 
             <aside class="table">
@@ -172,23 +180,29 @@
                 <p>Você pode chegar e estacionar das 8h30 às 16h e retirar seu carro até às 18h, combinado?</p>
                 <br>
                 <ul>
-                    <li><i class="fas fa-car"></i>Carros <span>Gratuito</span></li>
-                    <li><i class="fas fa-motorcycle"></i>Motos </i><span>Gratuito</span></li>
-                    <li><i class="fas fa-van-shuttle"></i>Vans </i><span>Gratuito</span></li>
-                    <li><i class="fas fa-bus"></i>Micrô-ônibus e Ônibus <span>Não permitido</span></li>
+                    <li><i class="fas fa-car"></i>Carros <span class="on">Gratuito</span></li>
+                    <li><i class="fas fa-motorcycle"></i>Motos </i><span class="on">Gratuito</span></li>
+                    <li><i class="fas fa-van-shuttle"></i>Vans </i><span class="on">Gratuito</span></li>
+                    <span>
+                        <li><i class="fas fa-bus"></i>Micrô-ônibus e Ônibus <span>Não permitido</span></li>
+                    </span>
                 </ul>
+
+                
             </aside>
+
+            
 
         </section>
 
 
-<section class="footer">
+<section id="contato" class="footer">
 
     <div class="box-container">
 
         <div class="box">
-            <h3><i class="fas fa-paw"></i> Encanto Animal</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3><img src="img/logo.png" alt=""></h3>
+            <p>Descubra a Magia da Vida Selvagem no Encanto Animal</p>
             <p class="links"><i class="fas fa-clock"></i>Segunda - Sábado</p>
             <p class="days">7:00AM - 20:00PM</p>
             <p class="links"><i class="fas fa-clock"></i>Domingo e Feriados</p>
@@ -197,9 +211,8 @@
 
         <div class="box">
             <h3>Informações de Contato</h3>
-            <a href="#" class="links"><i class="fas fa-phone"></i> (11) 5555-1234</a>
-            <a href="#" class="links"><i class="fas fa-phone"></i> (11) 95555-1234.</a>
-            <a href="#" class="links"><i class="fas fa-envelope"></i> contato@encantoanimalzoo.com.br</a>
+            <a href="#" class="links"><i class="fas fa-phone"></i> (11) 949579302</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i> contato@encantoanimal.com.br</a>
             <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</a>
         </div>
 
@@ -214,7 +227,7 @@
         </div>
 
         <div class="box">
-            <h3>newsletter</h3>
+            <h3>Inscreva-se</h3>
             <p>Inscreva-se para receber as últimas atualizações</p>
             <input type="email" placeholder="Insira seu Email" class="email">
             <a href="#" class="btn">Inscreva-se</a>

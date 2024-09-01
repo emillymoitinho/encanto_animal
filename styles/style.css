@@ -313,35 +313,39 @@ ul li i {
     font-size: 2rem;
     color: var(--branco);
     margin-bottom: 20px;
+    float: right;
   }
 
   /* Localização */
 
   section.local {
-    width: 100w;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100vw;
     height: 120vh;
     padding: 15rem;
-    background-color: var(--main);
+    background: url(/img/fundo_local.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   article.content {
-    float: left;
-    background-color: var(--branco);
     padding: 3rem;
     border-radius: 10px;
+    background-color: #fff;
   }
 
   article.content h1{
     font-size: 3rem;
     font-family: "Coming Soon", cursive;
     margin-bottom: 2rem;
+    text-align: center;
   }
+
 
   article.content p {
     font-size: 1.5rem;
-    width: 80rem;
+    width: 50rem;
     padding-top: 10px;
     padding-left: 20px;
   }
@@ -371,11 +375,9 @@ ul li i {
 
 
   aside.table {
-    float: right;
     background-color: var(--branco);
     padding: 5rem;
     border-radius: 10px;
-    
   }
 
   aside.table h2 {
@@ -404,11 +406,25 @@ ul li i {
     border-bottom: 1px solid #2c2a2c;
     margin-top: 1rem;
   }
+
+  aside.table ul span li {
+    border: none;
+  }
   
+  aside.table ul li .on {
+    float: right;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+
   aside.table ul li span {
     float: right;
     margin-right: 3rem;
     margin-top: 1rem;
+    color: red;
+    font-weight: bold;
   }
 
   aside.table ul li i {
@@ -520,7 +536,7 @@ ul li i {
   
   .footer .box-container .box .email{
     width: 100%;
-    margin: .7rem 0;
+    margin: 2.7rem 0px;
     padding: 1rem;
     border-radius: .5rem;
     background: var(--branco);
@@ -551,7 +567,7 @@ ul li i {
     text-align: center;
     margin-top: 2rem;
     padding-top: 2.5rem;
-    color: var(--preto);
+    color: var(--branco);
     border-top: .2rem solid rgba(0, 0, 0, 0.2);
   }
   
