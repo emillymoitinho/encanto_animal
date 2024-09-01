@@ -9,6 +9,8 @@
 /* Coming Soon */
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Quicksand:wght@300..700&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/hansief');
+
 * {
     margin: 0;
     padding: 0;
@@ -109,18 +111,19 @@ html::-webkit-scrollbar-thumb {
   justify-content: center; 
   align-items: center; 
   min-height: 85vh;
-  margin-bottom: 100px;
+  margin-bottom: 15rem;
 }
 
 .about .box-container{
   text-align: center;
-  display: flex;
-  /* justify-content: center; 
-  align-items: center;  */
+  display: grid;
+  grid-template-columns: repeat(2, 10fr);
+  gap: 10px;
+
 }
 
 .about .content {
-  max-width: 40%; /* Controla a largura máxima do conteúdo */
+   /* Controla a largura máxima do conteúdo */
   margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
 }
 
@@ -130,19 +133,20 @@ html::-webkit-scrollbar-thumb {
   color: #444;
   line-height: 2;
   text-indent: 10px;
-  text-align: justify; /* Justifica o texto */
-  margin-left: 50px;
-  margin-right: 80px;
+  text-align: justify;
+  margin-left: 142px;
+  margin-right: 148px;
 }
 
 
 .about img {
-  margin-top: 30px;
-  margin-right: 208px;
+  margin-top: 10rem;
 }
 
 .about ul {
   margin-top: 20px;
+  margin-left: 10rem;
+  list-style: none;
 }
 
 .about ul li {
@@ -152,7 +156,17 @@ html::-webkit-scrollbar-thumb {
   font-size: 1.5rem;
   line-height: 2rem;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center; /* Alinha o ícone e o texto no centro verticalmente */
+  margin-bottom: 15px; /* Espaço entre os itens */
+  color: #333; /* Cor do texto */
   
+}
+
+ul li i {
+  color: #4CAF50; /* Cor verde para os ícones */
+  font-size: 24px; /* Tamanho dos ícones */
+  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
 }
 
 .about .deco-title{
@@ -164,7 +178,8 @@ html::-webkit-scrollbar-thumb {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px var(--main);
   float: left;
-  margin-top: 150px;
+  margin-top: 130px;
+  margin-left: 10rem;
 } 
 
 .about .content .destaque {
@@ -214,14 +229,16 @@ html::-webkit-scrollbar-thumb {
 
  .animais {
   background: url(/img/fundo_animais.png);
-  height: 100rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120rem;
 }
 
 .animais .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
-    gap: 2rem;
-    padding: 50px 50px 150px 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+  padding: 10rem 10rem 10rem 10rem;
     
   }
   
@@ -236,8 +253,11 @@ html::-webkit-scrollbar-thumb {
     color: var(--main);
     font-size: 5rem;
     text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     margin-bottom: 40px;
     font-family: "Coming Soon", cursive;
+    background-color: #fff;
   }
   
   .animais .box-container .box img{
@@ -295,6 +315,105 @@ html::-webkit-scrollbar-thumb {
     margin-bottom: 20px;
   }
 
+  /* Localização */
+
+  section.local {
+    width: 100w;
+    height: 120vh;
+    padding: 15rem;
+    background-color: var(--main);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  article.content {
+    float: left;
+    background-color: var(--branco);
+    padding: 3rem;
+    border-radius: 10px;
+  }
+
+  article.content h1{
+    font-size: 3rem;
+    font-family: "Coming Soon", cursive;
+    margin-bottom: 2rem;
+  }
+
+  article.content p {
+    font-size: 1.5rem;
+    width: 80rem;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  article.content h2 {
+    font-size: 2rem;
+    padding: 10px;
+    width: 100px;
+    color: var(--verde);
+  }
+
+  article.content h3 {
+    font-size: 2rem;
+    padding: 10px;
+    color: var(--verde);
+  }
+
+  article.content ul {
+    list-style: none;
+    font-size: 1.3rem;
+    width: 70rem;
+    
+  }
+  article.content ul > li {
+    padding-left: 20px;
+  }
+
+
+  aside.table {
+    float: right;
+    background-color: var(--branco);
+    padding: 5rem;
+    border-radius: 10px;
+    
+  }
+
+  aside.table h2 {
+    font-size: 3rem;
+    font-family: "Coming Soon", cursive;
+    margin-bottom: 2rem;
+  }
+
+  aside.table h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  aside.table p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  aside.table ul {
+    list-style: none;
+  }
+
+  aside.table ul li {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #2c2a2c;
+    margin-top: 1rem;
+  }
+  
+  aside.table ul li span {
+    float: right;
+    margin-right: 3rem;
+    margin-top: 1rem;
+  }
+
+  aside.table ul li i {
+    color: var(--main);
+  }
 
   .contact{
     background: var(--verde_claro);
