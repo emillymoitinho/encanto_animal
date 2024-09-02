@@ -117,7 +117,7 @@ html::-webkit-scrollbar-thumb {
 .about .box-container{
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(2, 10fr);
+  grid-template-columns: 100vh 100vh;
   gap: 10px;
 
 }
