@@ -377,14 +377,14 @@ ul li i {
     
   }
   
-
+/* Como Chegar? */
 
   aside.chegar {
     grid-area: chegar;
     background-color: var(--branco);
     padding: 5rem;
     border-radius: 10px;
-    height: 70vh;
+    height: 60vh;
   }
 
   aside.chegar h3 {
@@ -402,13 +402,6 @@ ul li i {
     list-style: none;
   }
 
-  aside.table {
-    grid-area: table;
-    background-color: var(--branco);
-    padding: 5rem;
-    border-radius: 10px;
-    height: 70vh;
-  }
 
   aside.chegar ul li {
     font-size: 1.5rem;
@@ -417,38 +410,51 @@ ul li i {
     margin-top: 1rem;
   }
 
-  aside.table h3 {
+  aside.chegar ul span li {
+    border-bottom: none;
+  }
+
+  /* Estacionamento */
+  aside.parking{
+    grid-area: table;
+    background-color: var(--branco);
+    padding: 5rem;
+    border-radius: 10px;
+    height: 70vh;
+  }
+
+  aside.parking h2 {
     font-size: 3rem;
     font-family: "Coming Soon", cursive;
     margin-bottom: 2rem;
   }
 
-  aside.table h4 {
+  aside.parking h4 {
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
 
-  aside.table p {
+  aside.parking p {
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
 
-  aside.table ul {
+  aside.parking ul {
     list-style: none;
   }
 
-  aside.table ul li {
+  aside.parking ul li {
     font-size: 1.5rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid #2c2a2c;
     margin-top: 1rem;
   }
 
-  aside.table ul span li {
+  aside.parking ul span li {
     border: none;
   }
   
-  aside.table ul li .on {
+  aside.parking ul li .on {
     float: right;
     margin-right: 3rem;
     margin-top: 1rem;
@@ -456,7 +462,7 @@ ul li i {
     font-weight: bold;
   }
 
-  aside.table ul li span {
+  aside.parking ul li span {
     float: right;
     margin-right: 3rem;
     margin-top: 1rem;
@@ -464,9 +470,11 @@ ul li i {
     font-weight: bold;
   }
 
-  aside.table ul li i {
+  aside.parking ul li i {
     color: var(--main);
   }
+
+  /* CONTATO */
 
   .contact{
     background: var(--verde_claro);
