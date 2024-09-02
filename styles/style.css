@@ -79,7 +79,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .navbar a:hover {
-    /* text-decoration: underline; */
     color: var(--laranja_claro);
 }
 
@@ -87,6 +86,7 @@ html::-webkit-scrollbar-thumb {
 
 .home{
     min-height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     background: url(../img/capa.png) no-repeat;
@@ -99,7 +99,7 @@ html::-webkit-scrollbar-thumb {
     position: absolute;
     bottom: 0; 
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 12rem;
 }
 
@@ -136,6 +136,11 @@ html::-webkit-scrollbar-thumb {
   text-align: justify;
   margin-left: 142px;
   margin-right: 148px;
+}
+
+.content i {
+  padding: 10px;
+  color: var(--main);
 }
 
 
@@ -254,7 +259,7 @@ ul li i {
     font-size: 5rem;
     text-align: center;
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     margin-bottom: 40px;
     font-family: "Coming Soon", cursive;
     background-color: #fff;
@@ -332,6 +337,7 @@ ul li i {
     background: url(/img/fundo_local.png);
     background-size: cover;
   }
+
 
   article.content {
     grid-area: content;
