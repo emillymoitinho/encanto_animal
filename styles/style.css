@@ -231,14 +231,14 @@ ul li i {
   background: url(/img/fundo_animais.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120rem;
+  height: 120vh;
 }
 
 .animais .box-container{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 3rem;
-  padding: 10rem 10rem 10rem 10rem;
+  padding: 5rem;
     
   }
   
@@ -319,17 +319,20 @@ ul li i {
   /* Localização */
 
   section.local {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    display: grid;
+    grid-template-areas: "content table";
+    grid-template-columns: 50% auto;
+    grid-template-rows: 110% 70vh;
+    gap: 5rem;
     width: 100vw;
-    height: 120vh;
+    height: 150vh;
     padding: 15rem;
     background: url(/img/fundo_local.png);
     background-size: cover;
   }
 
   article.content {
+    grid-area: content;
     padding: 3rem;
     border-radius: 10px;
     background-color: #fff;
@@ -366,18 +369,22 @@ ul li i {
   article.content ul {
     list-style: none;
     font-size: 1.3rem;
-    width: 70rem;
+    width: 30vw;
+    padding-left: 20px;
     
   }
   article.content ul > li {
-    padding-left: 20px;
+    
   }
 
 
   aside.table {
+    grid-area: table;
     background-color: var(--branco);
     padding: 5rem;
     border-radius: 10px;
+    height: 70vh;
+    
   }
 
   aside.table h2 {
