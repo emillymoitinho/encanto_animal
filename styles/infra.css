@@ -117,6 +117,7 @@ html::-webkit-scrollbar-thumb {
     width: 100vw;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "conteudo imagem";
+    margin-bottom: 5rem;
 }
 
 .box-container .content {
@@ -221,4 +222,97 @@ article.content_topics img {
     border-bottom-right-radius: 10px;
 
 }
+
+/* MAPAS */
+
+section#mapa {
+    width: 100%;
+    height: 100%;
+    background-color: #C9FF4D;
+}
+
+section#mapa h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    white-space: nowrap;
+    line-height: 0.5;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--main);
+    float: left;
+    margin-top: 130px;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+    width: 100%;
+}
+
+
+article#mapas{
+    height: 200vh;
+    padding: 10rem;
+}
+
+/* MAPA DO ZOOLÓGICO */
+
+ article#mapas #mapazoo {
+    display: grid;
+    grid-template-areas: "zooimg texto";
+    grid-template-columns: 1fr 1fr;
+    width: 60vw;
+    background-color: #fff;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+
+}
+
+article#mapas #mapazoo > img {
+    grid-area: zooimg;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+article#mapas #mapazoo p {
+    grid-area: texto;
+    font-size: 1.5rem;
+    padding: 3rem;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+
+
+/* MAPA ESTACIONAMENTO */
+
+article#mapas #mapapark {
+    display: grid;
+    grid-template-areas: "texto parkimg";
+    grid-template-columns: 1fr 1fr;
+    width: 60vw;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+article#mapas #mapapark > img {
+    grid-area: parkimg;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+article#mapas #mapapark p {
+    grid-area: texto;
+    font-size: 1.5rem;
+    padding: 3rem;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+
+
+
+
 
