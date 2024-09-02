@@ -312,7 +312,8 @@ ul li i {
     border-radius: 30px;
     font-size: 2rem;
     color: var(--branco);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
     float: right;
   }
 
@@ -320,12 +321,13 @@ ul li i {
 
   section.local {
     display: grid;
-    grid-template-areas: "content table";
+    grid-template-areas: "content chegar"
+    "content table";
     grid-template-columns: 50% auto;
-    grid-template-rows: 110% 70vh;
+    grid-template-rows: 110% 70vh -20px;
     gap: 5rem;
     width: 100vw;
-    height: 150vh;
+    height: 180vh;
     padding: 15rem;
     background: url(/img/fundo_local.png);
     background-size: cover;
@@ -336,6 +338,7 @@ ul li i {
     padding: 3rem;
     border-radius: 10px;
     background-color: #fff;
+    height: 100vh;
   }
 
   article.content h1{
@@ -373,10 +376,31 @@ ul li i {
     padding-left: 20px;
     
   }
-  article.content ul > li {
-    
+  
+
+
+  aside.chegar {
+    grid-area: chegar;
+    background-color: var(--branco);
+    padding: 5rem;
+    border-radius: 10px;
+    height: 70vh;
   }
 
+  aside.chegar h3 {
+    font-size: 3rem;
+    font-family: "Coming Soon", cursive;
+    margin-bottom: 2rem;
+  }
+
+  aside.chegar p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  aside.chegar ul {
+    list-style: none;
+  }
 
   aside.table {
     grid-area: table;
@@ -384,10 +408,16 @@ ul li i {
     padding: 5rem;
     border-radius: 10px;
     height: 70vh;
-    
   }
 
-  aside.table h2 {
+  aside.chegar ul li {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #2c2a2c;
+    margin-top: 1rem;
+  }
+
+  aside.table h3 {
     font-size: 3rem;
     font-family: "Coming Soon", cursive;
     margin-bottom: 2rem;
