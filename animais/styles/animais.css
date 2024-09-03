@@ -90,7 +90,6 @@ html::-webkit-scrollbar-thumb {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/project_zoo-main/img/repteis_home.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -127,7 +126,7 @@ article.content p {
 }
 
 #animal {
-    background: url(/project_zoo-main/img/fundo_animais.png);
+    background: url(/img/fundo_animais.png);
     background-repeat: no-repeat;
     background-size: bottom right;
     padding: 10rem 10rem;
