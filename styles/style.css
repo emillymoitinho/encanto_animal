@@ -90,9 +90,7 @@ html::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     background: url(../img/capa.png) no-repeat;
-    background-size: cover;
-    
-    
+    background-size: cover; 
 }
 
 .home .wave{
@@ -123,8 +121,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about .content {
-   /* Controla a largura máxima do conteúdo */
-  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  margin: 0 auto;
 }
 
 
@@ -162,16 +159,15 @@ html::-webkit-scrollbar-thumb {
   line-height: 2rem;
   font-family: "Roboto", sans-serif;
   display: flex;
-  align-items: center; /* Alinha o ícone e o texto no centro verticalmente */
-  margin-bottom: 15px; /* Espaço entre os itens */
-  color: #333; /* Cor do texto */
-  
+  align-items: center;
+  margin-bottom: 15px;
+  color: #333;
 }
 
 ul li i {
-  color: #4CAF50; /* Cor verde para os ícones */
-  font-size: 24px; /* Tamanho dos ícones */
-  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+  color: #4CAF50;
+  font-size: 24px;
+  margin-right: 10px;
 }
 
 .about .deco-title{
@@ -216,7 +212,6 @@ ul li i {
     margin-top: 250px;
     margin-bottom: 50px;
     font-family: "Coming Soon", cursive;
-    
 }
 
 .about .content a {
@@ -227,7 +222,6 @@ ul li i {
   background-color: pink;
   border-radius: 5px;
 }
-
 
 
 /* ANIMAIS */
@@ -243,16 +237,15 @@ ul li i {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 3rem;
-  padding: 5rem;
-    
-  }
+  padding: 5rem;  
+}
   
-  .animais .box-container .box{
+.animais .box-container .box{
     height: 100%;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-  }
+}
 
   .heading {
     color: var(--main);
@@ -273,10 +266,8 @@ ul li i {
   
   .animais .box-container .box:hover img{
     transform: scale(1.1);
-  
   }
 
-  
   .animais .box-container .box .content{
     text-align: center;
     position: absolute;
@@ -297,7 +288,6 @@ ul li i {
     background: var(--preto);
     opacity: 0.5;
     transition: 0.5s ease;
-
   }
   
   .animais .box-container .box .content h3{
@@ -408,7 +398,6 @@ ul li i {
     list-style: none;
   }
 
-
   aside.chegar ul li {
     font-size: 1.5rem;
     padding-bottom: 2rem;
@@ -480,9 +469,7 @@ ul li i {
     color: var(--main);
   }
 
-
-  
-  /* footer */
+  /* FOOTER */
   
   .footer{
     background: url(../img/footer.jpg) no-repeat;
