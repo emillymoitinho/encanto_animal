@@ -233,7 +233,7 @@ ul li i {
 /* ANIMAIS */
 
  .animais {
-  background: url(/img/fundo_animais.png);
+  background: url(../img/fundo_animais.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;
@@ -334,7 +334,7 @@ ul li i {
     width: 100vw;
     height: 180vh;
     padding: 15rem;
-    background: url(/img/fundo_local.png);
+    background: url(../img/fundo_local.png);
     background-size: cover;
   }
 
