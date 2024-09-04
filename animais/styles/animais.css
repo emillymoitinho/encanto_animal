@@ -131,7 +131,7 @@ article.content p {
 }
 
 #animal {
-    background: url(/encanto_animal/img/fundo_animais.png);
+    background: url(/img/fundo_animais.png);
     background-repeat: no-repeat;
     background-size: bottom right;
     padding: 10rem 10rem;
@@ -191,7 +191,7 @@ article.content p {
 /* FOOTER */
   
 .footer{
-    background: url(/encanto_animal/img/footer.jpg) no-repeat;
+    background: url(/img/footer.jpg) no-repeat;
     background-size: cover;
     padding: 3rem 7%;
   }
