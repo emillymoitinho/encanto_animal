@@ -39,7 +39,6 @@ O Encanto Animal abriga uma diversidade de criaturas, incluindo:
   ![Anfíbios](img/gitanfibios.jpeg)
 
 
-
 ## Localização 📍🗺
 
 O Zoológico Encanto Animal está situado em um local estratégico que combina acessibilidade e proximidade com a natureza, proporcionando uma experiência única para os visitantes.
@@ -63,6 +62,11 @@ O zoológico possui uma infraestrutura cuidadosamente planejada, que inclui:
  - **Estacionamento:** Amplo e seguro, com capacidade para até 500 veículos.
 
 ![infraestrutura](img/infra.jpeg)
+![instalações](img/instalacoes.jpeg)
+![mapas](img/mapas.jpeg)
+
+
+
 
 
 
