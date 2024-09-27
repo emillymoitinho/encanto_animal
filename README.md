@@ -6,7 +6,7 @@ Link: https://emillymoitinho.github.io/encanto_animal/
 
 ![Encanto Animal](img/capa.png)
 
-## Sobre o Encanto Animal
+## Sobre o Encanto Animal 📄
 Fundado por Emilly, o Zoológico Encanto Animal começou como um projeto de resgate de animais em risco e cresceu para se tornar um centro de conservação renomado. Localizado na Avenida dos Sonhos Dourados, na Vila Encantada, em São Paulo, o zoológico oferece habitats naturais e programas educativos para promover a preservação e o respeito pela vida selvagem.
 
 **O zoológico é conhecido por seu compromisso com o bem-estar animal e a educação ambiental, convidando todos a explorar e se conectar com a natureza de maneira divertida e educativa.**
@@ -52,7 +52,7 @@ Horário de Funcionamento:
 
 ![Localização](img/localizacao.jpeg)
 
-## Infraestrutura
+## Infraestrutura 🏢 
 O zoológico possui uma infraestrutura cuidadosamente planejada, que inclui:
 
 - **Habitats Naturais:** Projetados para replicar os ambientes naturais das espécies.
