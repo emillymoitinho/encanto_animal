@@ -2,6 +2,8 @@
 
 O Zoológico Encanto Animal foi um site desenvolvido para a disciplina de Tecnologia Web do curso de Análise e Desenvolvimento de Sistemas do ENIAC. Este projeto apresenta um **ZOOLÓGICO FICTÍCIO**, oferecendo informações sobre as diversas categorias de animais, a infraestrutura do zoológico e os programas educativos que promovem a conservação e o respeito pela vida selvagem.
 
+Link: https://emillymoitinho.github.io/encanto_animal/
+
 ![Encanto Animal](img/capa.png)
 
 ## Sobre o Encanto Animal
@@ -11,14 +13,19 @@ Fundado por Emilly, o Zoológico Encanto Animal começou como um projeto de resg
 
 ![sobre o encanto animal](img/sobre.jpeg)
 
-## Nossos Animais 
+## Nossos Animais 🐾
 O Encanto Animal abriga uma diversidade de criaturas, incluindo:
 
 - Aves
+  ![Aves](img/gitaves.jpeg)
 - Répteis
+  ![Reptéis](img/gitrepteis.jpeg)
 - Mamíferos
+  ![Mamíferos](img/gitmamiferos.jpeg)
+- Peixes
+  ![Peixes](img/gitpeixes.jpeg)
 - Anfíbios
-- Aquário
+  ![Anfíbios](img/gitanfibios.jpeg)
 
 ![Animais do Encanto Animal](img/nossos_animais.jpeg)
 
@@ -46,8 +53,7 @@ O zoológico possui uma infraestrutura cuidadosamente planejada, que inclui:
 
 ![infraestrutura](img/infra.jpeg)
 
-## Aves
-![Aves](img/aves.jpeg)
+
 
 
 
