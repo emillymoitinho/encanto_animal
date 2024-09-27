@@ -76,6 +76,7 @@ html::-webkit-scrollbar-thumb {
     margin: 0 1rem;
     cursor: pointer;
     font-family: "Quicksand", sans-serif;
+    padding: 10px;
 }
 
 .header .navbar a:hover {
