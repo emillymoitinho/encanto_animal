@@ -44,6 +44,12 @@ O zoológico possui uma infraestrutura cuidadosamente planejada, que inclui:
 - **Áreas de Lazer e Convivência:** Incluindo playgrounds e espaços para piqueniques.
  - **Estacionamento:** Amplo e seguro, com capacidade para até 500 veículos.
 
+![infraestrutura](img/infra.jpeg)
+
+## Aves
+![Aves](img/aves.jpeg)
+
+
 
 
 
