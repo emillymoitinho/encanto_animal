@@ -16,20 +16,31 @@ Fundado por Emilly, o Zoológico Encanto Animal começou como um projeto de resg
 ## Nossos Animais 🐾
 O Encanto Animal abriga uma diversidade de criaturas, incluindo:
 
-- Aves
-  ![Aves](img/gitaves.jpeg)
-- Répteis
-  ![Reptéis](img/gitrepteis.jpeg)
-- Mamíferos
-  ![Mamíferos](img/gitmamiferos.jpeg)
-- Peixes
-  ![Peixes](img/gitpeixes.jpeg)
-- Anfíbios
-  ![Anfíbios](img/gitanfibios.jpeg)
-
 ![Animais do Encanto Animal](img/nossos_animais.jpeg)
 
-## Localização
+- Aves 🦜
+  
+  ![Aves](img/gitaves.jpeg)
+  
+- Répteis 🐊
+  
+  ![Reptéis](img/gitrepteis.jpeg)
+  
+- Mamíferos 🦁
+  
+  ![Mamíferos](img/gitmamiferos.jpeg)
+  
+- Peixes 🐟 
+  
+  ![Peixes](img/gitpeixes.jpeg)
+  
+- Anfíbios 🐸
+  
+  ![Anfíbios](img/gitanfibios.jpeg)
+
+
+
+## Localização 📍🗺
 
 O Zoológico Encanto Animal está situado em um local estratégico que combina acessibilidade e proximidade com a natureza, proporcionando uma experiência única para os visitantes.
 
